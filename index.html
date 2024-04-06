@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="./SCSS/index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1 class="title">Volunteers</h1>
+    <div class="searchbar">
+        <select name="" id="optionfilter">
+            <option value="All">All</option>
+            <option value="Applied">Applied</option>
+            <option value="Approved">Approved</option>
+        </select>
+        <input type="text" id="searchInput" placeholder="Search....">
+    </div>
+    <div class="conatiner">
+        <table id="table" class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Status</th>
+                    <th>Submitted</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <div id="pagination"></div>
+    </div>
+</body>
+</html>

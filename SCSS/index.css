@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.title {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+.searchbar select {
+  padding: 10px 25px;
+  font-size: 15px;
+}
+.searchbar input {
+  padding: 8px 55px;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  flex-direction: column;
+}
+.conatiner .table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.conatiner .table th, .conatiner .table td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+.conatiner .table th {
+  background-color: #f2f2f2;
+}
+.conatiner .table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.conatiner .table tbody tr:hover {
+  background-color: #dddddd;
+}
+.conatiner .table .deletebtn {
+  padding: 7px 35px;
+  background-color: rgb(3, 71, 49);
+  color: #f2f2f2;
+  border: none;
+  border-radius: 3px;
+}
+.conatiner .table .deletebtn:hover {
+  cursor: pointer;
+}
+.conatiner #pagination {
+  margin-top: 40px;
+}
+.conatiner #pagination span {
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 2px;
+  margin-right: 10px;
+  text-align: center;
+}
+.conatiner #pagination span:nth-child(odd) {
+  background-color: rgb(197, 195, 195);
+}
+.conatiner #pagination span:hover {
+  cursor: pointer;
+  color: #dddddd;
+  background-color: #000;
+}/*# sourceMappingURL=index.css.map */
